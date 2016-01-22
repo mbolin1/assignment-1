@@ -1,0 +1,100 @@
+<!doctype html>
+<!--
+Matthew Bolin
+COSC 231
+Winter 2016
+1/15/2016
+assignment 1
+-->
+<!--*************************************************************************-->
+<html>
+	<head>
+		<title>
+			Assignment 1
+		</title>
+	</head>
+	<body>
+		<h1>AWESOME NEW CLUB</h1>
+		<form action="assignment1.html" method="POST">
+			<table>
+				<tr>
+					<td><label>User name:</label></td>
+					<td>
+						<input type="text" name="uname" 
+						placeholder="user name" />
+					</td>
+				</tr>
+				<tr>
+					<td><label>Password:</label></td>
+					<td>
+						<input type="password" name="pass" 
+						placeholder="password"/>
+					</td>
+				</tr>
+				<tr>
+					<td><label>First name:</label></td>
+					<td>
+						<input type="text" name="fname" 
+						placeholder="first name" />
+					</td>
+				</tr>
+				<tr>
+					<td><label>Last name:</label></td>
+					<td>
+						<input type="text" name="lname" 
+						placeholder="last name" />
+					</td>
+				</tr>
+				<tr>
+					<td><label>Age:</label></td>
+					<td>
+						<input type="number" name="age" min="1" step="1"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label>Who do you prefer?</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>
+							Stephen Colbert
+							<input type="radio" value="SC" name="funny"/>
+						</label>
+					</td>
+					<td>
+						<label>
+							John Stewart
+							<input type="radio" value="JS" name="funny"/>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label>What food do they enjoy?</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Food:</label>
+					</td>
+					<td>
+						<select multiple name="food">
+							<option disabled value="nope">select</option>
+							<option value="bacon">bacon</option>
+							<option value="feta cheese">feta cheese</option>
+							<option value="french fries">french fries</option>
+							<option value="another pizza">another pizza</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="submit" value="submit" name="submit"/>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
